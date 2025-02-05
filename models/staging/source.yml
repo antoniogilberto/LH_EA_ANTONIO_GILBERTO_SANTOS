@@ -1,0 +1,61 @@
+version: 2
+
+sources:
+  - name: LH_AE_GILBERTO
+    tables:
+      - name: agencias
+        description: 'Tabela de informações de agencias'
+        columns:
+          - name: cod_agencia 
+            tests:
+              - unique
+              - not_null
+
+      - name: clientes
+        description: 'Tabela de informações de clientes'
+        columns:
+          - name: cod_cliente 
+            tests:
+              - unique
+              - not_null
+
+      - name: colaborador_agencia
+        description: 'Tabela de informações sobre colaboradores e agencia'
+        columns:
+          - name: cod_colaborador 
+            tests:
+              - unique
+              - not_null
+
+      - name: colaboradores
+        description: 'Tabela de informações sobre colaboradores'
+        columns:
+          - name: cod_colaborador 
+            tests:
+              - unique
+              - not_null
+
+      - name: contas
+        description: 'Tabela de informações sobre as contas dos clientes'
+        columns:
+          - name: num_conta 
+            tests:
+              - unique
+              - not_null
+
+      - name: propostas_credito
+        description: 'Tabela de informações sobre as propostas de creditos dos clientes'
+        columns:
+          - name: cod_proposta 
+            tests:
+              - unique
+              - not_null
+
+      - name: transacoes
+        description: 'Tabela de informações sobre as transacoes'
+        columns:
+          - name: cod_transacao 
+            tests:
+              - unique
+              - not_null
+      

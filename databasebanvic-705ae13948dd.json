@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "databasebanvic",
+  "private_key_id": "705ae13948ddd47f66101a0934503c83b188e011",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQChHtyyys17K2c5\nkuMBubdZAvDkK9LCX0m7+cusAzttI2SEqv9BZF5NzVKSd2Esr9h78CtKtMdZ1BvX\n3DWgfr/9PJP/MnsDnHr0c+/CGLRvAG6FMLXNNh4JmNnkIh8yBjK3b0e0tqRocmzn\nwBhhaSdzIKFf4ZoWgFo5VCSKTrf1Iilcd5wxMd1O7AdH+RCL+u0wm3zORO4+pVA2\nRf29Td0Eip1UsM4sXCL+vWpzhZOaNGRqRkLfUra9AUJCGto5W7Edbm82hHALXg8J\nkJ7GEILXa9TOMcketmAHy7Kyru5fBa6rCrCEio0zMilQ20Dsqx8l1GaWW2uWChyu\nanqHkz5lAgMBAAECggEACs8ekJgZGkRFKTr4zmrT1BLlxPOeW2U3yyFCUAiUz14/\n0MQFWoZjP+ZLEyxocS5divhdJHvloS8hAbryQLwqy9BpQAZLnmhnD0if3cOj3Ive\nM5fwT74WXHUhWQljp7V8EuD89zCxmELk739Bo3dXKtrA42/SfeP1KZdthCHX0Ygd\nOm5gn63r0OsINlQu/21Nyu3Ltw8HGsONO+IEZ+dOqO/s83oEfo7hzWyaM4rZUtgt\ncnlWqy3EjgsPm+DeJSmyWVovIXC5pcKulL820cPyOjy0HPOLFsXzOgq8SLaU9Nn8\nFk4mNE0A6WddfyxGhNPGmjZAHd/JY7w51lf4jiPIgQKBgQDU6Hf0VYYO/heXOstW\nfBO6AKUEESbXftUBDBPGv+fHRJQUv9S4WsU3wahs6HdZsARnxqyWyQmRth5djFKd\nzfDybOEdoAAHbih7XM1PelfJsP6TNu6lmHvTgpxR561P7Y2ZJOKKDCLLUnVmJjj/\nYCYNiiimlCU+Nq4FJ3/OSq7A0QKBgQDBuxiXtPBFKgpxwgFb6f/41NgAWvul/0fT\n6f9FC9sCNeUIjt1AXiT4G6zxbHvpisPJPvCsQEK3avrJSglUy4mr/wxg3XHeR6MF\njyhCi6Xbw7LzoIVR5H6EmhwbEgfFcuOrdVXO/SEAHfmTT/NTEaVb8aPtumfAPwIt\nWRWrON/pVQKBgQCZ7NvUjQRX0IITttENXLUSU6b50sCnKa4rjKS7m0Chw0Xf3nSX\nOCC/V8ZBvquS7vuwX2WlugCuFOHNNkcAicR6MBdsyKFcvdqMnaJdpJDVY54ZpqxQ\nknZri1EisgGN+KvXnWAe9/kr0BjKWjX5A3VfcpRDInXuja+wUEdJSJshEQKBgHF/\nZkICzD0JC0NoMJmjtsYWFFHo+8NdkrwxO888yds6rercn/zE6w28UQ7DyrihBmER\nkbiokS2Z7EEfMeZOtGJisuLQ+ZQLDhQEscaCv/HHbkDTCyhWIFUZYFvvrUPdMkrS\nHCp/G+VQqlXGojxJe0IpiCuPaJc1ktX0egBs+qldAoGBAJqtQ3aW2+l6/cTfcHM4\nN8Q5pNGudLuG1OG8Xa22OzxTqNpbIvlRn5uZADAtdHVkpcviINsLe73V/EyjKDGd\nHUujb7YehC1GzyXBs8pzYOElKn26bEnx+3fgOW4W5dA/d/4OTm5DgWcYo/R3Il2S\nxfO7svZi+IK9QotYC7vgYBoP\n-----END PRIVATE KEY-----\n",
+  "client_email": "lh-ae-gilberto@databasebanvic.iam.gserviceaccount.com",
+  "client_id": "104849160256967653255",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lh-ae-gilberto%40databasebanvic.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
