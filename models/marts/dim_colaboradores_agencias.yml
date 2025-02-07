@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: dim_colaboradores_agencias
+    description: "Dimensão que une colaboradores com suas respectivas agências."
+    columns:
+      - name: agencia_id
+        description: "Chave primária da agência."
+        tests:
+
+          - not_null
+      - name: colaborador_id
+        description: "Chave primária do colaborador."
+        tests:
+
+          - not_null
+      - name: nome_agencia
+        description: "Nome da agência onde o colaborador está alocado."
+
+      - name: cidade
+        description: "Cidade onde a agência está localizada."
+
+      - name: uf
+        description: "Estado (UF) da agência."
+
+      - name: tipo_agencia
+        description: "Tipo da agência (ex: Digital, Física, etc.)."
+
+      - name: nome_completo
+        description: "Nome completo do colaborador."
+        
+      - name: idade
+        description: "Idade do colaborador."
