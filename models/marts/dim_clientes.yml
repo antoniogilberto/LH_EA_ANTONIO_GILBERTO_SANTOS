@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: dim_clientes
+    description: "Tabela dimensional de clientes, contendo informações pessoais e indicadores de movimentação financeira."
+    columns:
+      - name: cliente_id
+        description: "Identificador único do cliente."
+        tests:
+          - unique
+          - not_null
+          
+      - name: nome_completo
+        description: "Nome completo do cliente."
+
+      - name: email
+        description: "Endereço de e-mail do cliente."
+
+      - name: tipo_cliente
+        description: "Tipo do cliente (Pessoa Física ou Pessoa Jurídica)."
+
+      - name: data_inclusao
+        description: "Data em que o cliente foi cadastrado no banco."
+        tests:
+          - not_null
+
+      - name: cpf
+        description: "CPF ou CNPJ do cliente."
+
+      - name: data_nascimento
+        description: "Data de nascimento do cliente."
+
+      - name: endereco
+        description: "Endereço completo do cliente."
+
+      - name: cep
+        description: "Código postal do cliente."
+
+      - name: qtd_transacoes
+        description: "Número total de transações realizadas pelo cliente."
+        tests:
+          - not_null
+
+      - name: total_valor_transacionado
+        description: "Valor total movimentado pelo cliente em todas as transações."
+        tests:
+          - not_null
+
+      - name: qtd_propostas
+        description: "Número total de propostas de crédito feitas pelo cliente."
+        tests:
+          - not_null
+
+      - name: total_valor_propostas
+        description: "Valor total solicitado pelo cliente em propostas de crédito."
+        tests:
+          - not_null
+
+      - name: taxa_media_juros
+        description: "Taxa média de juros das propostas de crédito feitas pelo cliente."
