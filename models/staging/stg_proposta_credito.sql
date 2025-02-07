@@ -4,7 +4,7 @@ with
             cod_proposta as proposta_id
             , cod_cliente as cliente_id
             , cod_colaborador as colaborador_id
-            , cast(data_entrada_proposta as date) as data_entrada_proposta
+            , date(data_entrada_proposta) as data_entrada_proposta
             , taxa_juros_mensal
             , valor_proposta
             , valor_financiamento
