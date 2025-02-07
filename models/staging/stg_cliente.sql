@@ -6,9 +6,9 @@ with
           , email
           , case 
               when tipo_cliente = 'PF' then 'Pessoa Física' end as tipo_cliente
-          , cast(data_inclusao as date) as data_inclusao
+          , date(data_inclusao) as data_inclusao
           , cpfcnpj as cpf
-          , data_nascimento
+          , date_diff(CURRENT_DATE(), data_nascimento, YEAR) as idade
           , endereco
           , cep  
            
