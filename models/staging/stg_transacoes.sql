@@ -3,7 +3,7 @@ with
         select
             cod_transacao as transacao_id
             , num_conta as conta_id
-            , cast(data_transacao as date) as data_transacao
+            , date(data_transacao) as data_transacao
             , nome_transacao
             , valor_transacao
             
