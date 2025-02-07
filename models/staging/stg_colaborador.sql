@@ -5,7 +5,7 @@ with
             , concat(primeiro_nome, ' ', ultimo_nome) as nome_completo
             , email
             , cpf
-            , data_nascimento
+            , date_diff(CURRENT_DATE(), data_nascimento, YEAR) as idade
             , endereco
             , cep
             
