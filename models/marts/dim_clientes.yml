@@ -9,7 +9,7 @@ models:
         tests:
           - unique
           - not_null
-          
+
       - name: nome_completo
         description: "Nome completo do cliente."
 
@@ -27,8 +27,8 @@ models:
       - name: cpf
         description: "CPF ou CNPJ do cliente."
 
-      - name: data_nascimento
-        description: "Data de nascimento do cliente."
+      - name: idade
+        description: "Idade do cliente."
 
       - name: endereco
         description: "Endereço completo do cliente."
