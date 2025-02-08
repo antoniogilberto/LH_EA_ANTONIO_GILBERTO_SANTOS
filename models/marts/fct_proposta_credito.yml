@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: fct_proposta_credito
+    description: "Tabela fato que contém todas as propostas de crédito realizadas pelos clientes, incluindo valores e taxas de financiamento."
+    columns:
+      - name: proposta_id
+        description: "Identificador único da proposta de crédito."
+        tests:
+          - unique
+          - not_null
+
+      - name: colaborador_id
+        description: "Identificador do colaborador responsável pela proposta."
+
+      - name: cliente_id
+        description: "Identificador do cliente que fez a proposta de crédito."
+
+      - name: data_entrada_proposta
+        description: "Data em que a proposta de crédito foi registrada."
+        tests:
+          - not_null
+
+      - name: taxa_juros_mensal
+        description: "Taxa de juros mensal aplicada na proposta de crédito."
+
+      - name: valor_proposta
+        description: "Valor total da proposta de crédito solicitada pelo cliente."
+        tests:
+          - not_null
+
+      - name: valor_financiamento
+        description: "Valor total do financiamento aprovado na proposta."
+
+      - name: valor_entrada
+        description: "Valor da entrada paga pelo cliente na proposta de crédito."
+
+      - name: valor_prestacao
+        description: "Valor de cada prestação no financiamento."
+
+      - name: quantidade_parcelas
+        description: "Número total de parcelas do financiamento."
+
+      - name: carencia
+        description: "Número de meses de carência antes do pagamento das parcelas."
+
+      - name: status_proposta
+        description: "Status atual da proposta de crédito (ex: Aprovada, Rejeitada, Pendente)."
