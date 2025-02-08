@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: dim_data
+    description: "Dimensão de tempo usada para análises temporais, contendo informações sobre dias, meses, trimestres e anos."
+    columns:
+      - name: data_completa
+        description: "Data completa no formato YYYY-MM-DD."
+
+      - name: ano
+        description: "Ano da data."
+
+      - name: mes
+        description: "Mês da data (1 a 12)."
+
+      - name: dia
+        description: "Dia do mês (1 a 31)."
+
+      - name: semana_do_ano
+        description: "Número da semana do ano."
+
+      - name: trimestre
+        description: "Trimestre do ano (1 a 4)."
+
+      - name: nome_mes
+        description: "Nome do mês (exemplo: Janeiro, Fevereiro)."
+
+      - name: nome_dia
+        description: "Nome do dia da semana (exemplo: Segunda-feira)."
