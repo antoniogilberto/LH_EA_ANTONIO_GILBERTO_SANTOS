@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: fct_transacoes
+    description: "Tabela fato que contém todas as transações financeiras realizadas pelos clientes, relacionando contas bancárias, clientes e datas."
+    columns:
+      - name: transacao_id
+        description: "Identificador único da transação financeira."
+        tests:
+          - unique
+          - not_null
+
+      - name: transacao_conta_id
+        description: "Identificador da conta associada à transação."
+
+      - name: conta_conta_id
+        description: "Identificador da conta vinculada à transação."
+
+      - name: cliente_id
+        description: "Identificador do cliente que realizou a transação."
+
+      - name: nome_transacao
+        description: "Nome ou tipo da transação (exemplo: Saque, Depósito, Transferência)."
+
+      - name: valor_transacao
+        description: "Valor da transação realizada."
+
+      - name: tipo_contas
+        description: "Tipo da conta associada à transação (PF ou PJ)."
+
+      - name: saldo_total
+        description: "Saldo total da conta no momento da transação."
+
+      - name: data_abertura
+        description: "Data de abertura da conta associada à transação."
+
+      - name: data_completa
+        description: "Data em que a transação foi realizada, relacionada à dimensão de tempo (`dim_data`)."
+        
