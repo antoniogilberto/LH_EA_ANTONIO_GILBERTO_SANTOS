@@ -19,8 +19,8 @@ with
             , agencias.cidade
             , agencias.uf
             , agencias.tipo_agencia
-            , colaboradores.nome_completo
-            , colaboradores.idade
+            , colaboradores.nome_completo as nome_colaborador
+            , colaboradores.idade as idade_colaborador
         from colaboradores_agencias
         left join agencias on colaboradores_agencias.agencia_id = agencias.agencia_id
         left join colaboradores on colaboradores_agencias.colaborador_id = colaboradores.colaborador_id
