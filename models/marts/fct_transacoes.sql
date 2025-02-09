@@ -29,8 +29,7 @@ with
             , transacoes.valor_transacao
             , contas.tipo_contas
             , contas.saldo_total
-            , contas.data_abertura
-            , dim_data.data_completa
+            , transacoes.data_transacao
         from transacoes
         left join contas on transacoes.conta_id = contas.conta_id
         left join dim_data on transacoes.data_transacao = dim_data.data_completa
